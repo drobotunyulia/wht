@@ -53,3 +53,27 @@ source .venv/bin/activate
 ```text
 pip install -r requirements.txt
 ```
+## Используемый набор данных
+
+В работе используется UC Merced Land Use Dataset.
+
+После загрузки изображения необходимо разместить в папке:
+```text
+data/
+```
+## Запуск экспериментов
+
+Финальное сравнение JPEG и разработанного алгоритма:
+```text
+python experiments/final_dataset_benchmark.py
+```
+После завершения формируется CSV-файл:
+```text
+results/final_dataset_benchmark_32.csv
+```
+Построение графиков
+
+Пример построения графиков:
+```text
+python plots/plot_32.py
+```
