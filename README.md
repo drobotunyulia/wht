@@ -34,7 +34,7 @@ data/             датасет UC Merced Land Use Dataset
 
 
 ```text
-git clone https://github.com/USERNAME/uav-image-compression-wht.git
+git clone https://github.com/drobotunyulia/wht.git
 ```
 ```text
 cd wht
